@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ post[1] }}</title>
+</head>
+<body>
+    <h1>{{ post[1] }}</h1>
+    <p>{{ post[2] }}</p>
+    <p><a href="/">عودة</a></p>
+    <div>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ request.url }}" target="_blank">مشاركة على فيسبوك</a> |
+        <a href="https://twitter.com/intent/tweet?url={{ request.url }}" target="_blank">مشاركة على تويتر</a>
+    </div>
+</body>
+</html>
